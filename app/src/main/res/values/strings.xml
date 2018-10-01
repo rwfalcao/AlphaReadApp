@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AlphaRead</string>
+    <string name="title_activity_registrar">Registrar</string>
+    <string name="title_activity_recuperar_senha">RecuperarSenha</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="nav_home">Home</string>
+    <string name="Configurações">nav_config</string>
+    <string name="nav_sug">Sugestões</string>
+</resources>
