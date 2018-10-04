@@ -19,6 +19,7 @@
         <activity
             android:name=".Registrar"
             android:label="@string/title_activity_registrar" />
+        <activity android:name=".RetrieveActivity"></activity>
     </application>
 
 </manifest>

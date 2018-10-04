@@ -26,11 +26,11 @@ public class Registrar extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registrar);
         mAuth = FirebaseAuth.getInstance();
-        email = findViewById(R.id.Email_registrar);
+        email = findViewById(R.id.Email_retrieve);
         username = findViewById(R.id.Username_registrar);
         password = findViewById(R.id.Password_registrar);
         celular = findViewById(R.id.Celular_registrar);
-        registrar = findViewById(R.id.Registrar_registrar);
+        registrar = findViewById(R.id.Retrieve_retrieve);
         Button voltar = findViewById(R.id.Voltar_registrar);
         voltar.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -58,7 +58,7 @@ public class Registrar extends Activity {
                             // Sign in success, update UI with the signed-in user's information
                             Log.d("log", "createUserWithEmail:success");
                             FirebaseUser user = mAuth.getCurrentUser();
-                            Toast.makeText(Registrar.this, "Authentication success.", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(Registrar.this, "Cadastro feito com success.", Toast.LENGTH_SHORT).show();
                         }
                     }
                 });

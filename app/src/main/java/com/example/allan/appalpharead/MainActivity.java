@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
         RecuperarSenha.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
+                /*
                 AlertDialog.Builder alert = new AlertDialog.Builder(MainActivity.this);
                 alert.setTitle("Aviso");
                 alert
@@ -52,7 +53,8 @@ public class MainActivity extends AppCompatActivity {
                         .setIcon(R.drawable.notification);
                 AlertDialog alertDialog = alert.create();
                 alertDialog.show();
-
+                */
+                startActivity(new Intent(MainActivity.this, RetrieveActivity.class));
             }
         });
 
